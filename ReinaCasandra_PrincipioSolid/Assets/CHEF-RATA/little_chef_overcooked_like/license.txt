@@ -1,0 +1,11 @@
+Model Information:
+* title:	Little Chef (Overcooked like)
+* source:	https://sketchfab.com/3d-models/little-chef-overcooked-like-9d90b46796b4471687a350c0c1f6f556
+* author:	marcelosants (https://sketchfab.com/marcelosants)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Little Chef (Overcooked like)" (https://sketchfab.com/3d-models/little-chef-overcooked-like-9d90b46796b4471687a350c0c1f6f556) by marcelosants (https://sketchfab.com/marcelosants) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

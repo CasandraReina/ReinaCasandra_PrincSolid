@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cartoon Low Poly Rat Pack
+* source:	https://sketchfab.com/3d-models/cartoon-low-poly-rat-pack-2c9b95f5b3094a789c4b23fca07d0bc9
+* author:	Overaction Game Studio (https://sketchfab.com/overactiongamestudio)
+
+Model License:
+* license type:	CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
+* requirements:	Author must be credited. Modified versions must have the same license. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cartoon Low Poly Rat Pack" (https://sketchfab.com/3d-models/cartoon-low-poly-rat-pack-2c9b95f5b3094a789c4b23fca07d0bc9) by Overaction Game Studio (https://sketchfab.com/overactiongamestudio) licensed under CC-BY-SA-4.0 (http://creativecommons.org/licenses/by-sa/4.0/)
