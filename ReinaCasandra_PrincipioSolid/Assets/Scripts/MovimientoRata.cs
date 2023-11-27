@@ -1,5 +1,5 @@
-
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MovimientoRata : MonoBehaviour
 {
@@ -12,5 +12,15 @@ public class MovimientoRata : MonoBehaviour
         
         // Movemos el objeto a la nueva posición
         transform.position = nuevaPosicion;
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        // Comprobar si la colisión es con el tipo de objeto deseado
+        if (collision.gameObject.CompareTag("Puerta"))
+        {
+            SceneManager.LoadScene(3);
+            Debug.Log("Perdio");
+        }
     }
 }
