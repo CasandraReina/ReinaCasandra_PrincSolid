@@ -1,9 +1,9 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class ColisionJaula : MonoBehaviour
 {
-
     private int contador;
     public TextMeshProUGUI contadorRatas;
 
@@ -17,5 +17,10 @@ public class ColisionJaula : MonoBehaviour
             contador++;
             contadorRatas.text = contador.ToString();
             Destroy(collision.gameObject);
+
+            if (contador >= 30)
+           {
+            SceneManager.LoadScene(2);
+           }
     }
 }

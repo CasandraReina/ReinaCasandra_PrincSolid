@@ -6,7 +6,12 @@ public class MovimientoPersonaje : MonoBehaviour
 
     void Update()
     {
-        // Obtener las entradas del teclado para mover el personaje
+      MoveCharacter();
+    }
+
+    private void MoveCharacter()
+    {
+          // Obtener las entradas del teclado para mover el personaje
         float moveX = Input.GetAxis("Horizontal");
  
         // Calcular la dirección del movimiento

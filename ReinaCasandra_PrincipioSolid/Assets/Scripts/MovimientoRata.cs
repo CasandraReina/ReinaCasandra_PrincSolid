@@ -7,6 +7,11 @@ public class MovimientoRata : MonoBehaviour
     
     void Update()
     {
+        MoveRat();
+    }
+
+    private void MoveRat()
+    {
         // Calculamos la nueva posición del objeto
         Vector3 nuevaPosicion = transform.position + new Vector3(0f, 0f, velocidad * Time.deltaTime);
         
@@ -20,6 +25,7 @@ public class MovimientoRata : MonoBehaviour
         if (collision.gameObject.CompareTag("Puerta"))
         {
             SceneManager.LoadScene(3);
+            Destroy(gameObject);
             Debug.Log("Perdio");
         }
     }
