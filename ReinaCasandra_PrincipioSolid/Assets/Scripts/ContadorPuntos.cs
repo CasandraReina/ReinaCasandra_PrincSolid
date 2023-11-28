@@ -2,7 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class ColisionJaula : MonoBehaviour
+public class ContadorPuntos : MonoBehaviour
 {
     private int contador;
     public TextMeshProUGUI contadorRatas;
