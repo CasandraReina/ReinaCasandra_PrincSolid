@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Rata : MonoBehaviour
+public class MovimientoRata : MonoBehaviour
 {
     public float velocidadInicial =  2f;
     public float aumentoVelocidad =  5f;

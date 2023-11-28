@@ -9,7 +9,7 @@ public class GenerateRat : MonoBehaviour
         Invoke("SpawnRat", Random.Range(1f, 4f));
     }
 
-    public void SpawnRat()
+    private void SpawnRat()
     {
         int randomIndex = Random.Range(0, rat.Length);
         GameObject newObject = Instantiate(rat[randomIndex], transform.position, transform.rotation);
