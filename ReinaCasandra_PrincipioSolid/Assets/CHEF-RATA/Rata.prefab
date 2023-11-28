@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8850510954796751591}
   - component: {fileID: 1964388113843421192}
   - component: {fileID: 1024195951592539593}
+  - component: {fileID: -4228331056047669705}
   m_Layer: 0
   m_Name: Rata
   m_TagString: Untagged
@@ -148,3 +149,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &-4228331056047669705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7054891548055061613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff43757baf0ba54c8a2c5d1511c7768, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

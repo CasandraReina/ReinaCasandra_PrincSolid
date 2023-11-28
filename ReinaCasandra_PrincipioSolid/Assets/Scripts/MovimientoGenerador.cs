@@ -1,19 +1,12 @@
 using UnityEngine;
 
-public class Generador : MonoBehaviour
+public class MovimientoGenerador : MonoBehaviour
 {
-    //public GameObject[] bigRat;
     private float speedX = 4f;
-    //public GenerateRat generateRat;
-
-    private void Start()
-    {
-    }
 
     void Update()
     {
         MoveGenerator();
-        //generateRat.SpawnRat();
     }
 
      private void MoveGenerator()
