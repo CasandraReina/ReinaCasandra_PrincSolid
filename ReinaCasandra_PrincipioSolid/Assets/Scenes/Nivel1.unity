@@ -319,6 +319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 303092903}
   - component: {fileID: 303092904}
+  - component: {fileID: 303092905}
   m_Layer: 0
   m_Name: Generador
   m_TagString: Untagged
@@ -351,6 +352,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d8d34943b674811419fe60c03efbe487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generateRat: {fileID: 0}
+--- !u!114 &303092905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303092901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b07a6328ad92814a8bf3b00ef79bfd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rat:
@@ -7342,6 +7356,7 @@ GameObject:
   - component: {fileID: 850836649778396935}
   - component: {fileID: 6622288112855991704}
   - component: {fileID: 4888937435292200694}
+  - component: {fileID: 7781711341892498600}
   m_Layer: 0
   m_Name: Chef
   m_TagString: Untagged
@@ -7349,6 +7364,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7781711341892498600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7781711341892498599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537a76fb5fc6b774c92a0bcc27d3bc6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7839823272002631231
 GameObject:
   m_ObjectHideFlags: 0

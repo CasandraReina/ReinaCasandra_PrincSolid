@@ -34,26 +34,18 @@ using UnityEngine;
 
 public class Generador : MonoBehaviour
 {
-    public GameObject[] rat;
+    //public GameObject[] bigRat;
     private float speedX = 4f;
+    public GenerateRat generateRat;
 
     private void Start()
     {
-        Invoke("GenerateRat", Random.Range(1f, 4f));
     }
 
     void Update()
     {
         MoveGenerator();
-    }
-
-    private void GenerateRat()
-    {
-        int randomIndex = Random.Range(0, rat.Length);
-        GameObject newObject = Instantiate(rat[randomIndex], transform.position, transform.rotation);
-        
-        float randomTime = Random.Range(1f, 4f);
-        Invoke("GenerateRat", randomTime);
+        generateRat.SpawnRat();
     }
 
      private void MoveGenerator()

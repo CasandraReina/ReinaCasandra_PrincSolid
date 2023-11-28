@@ -1,13 +1,23 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MovimientoRata : MonoBehaviour
+public class Rata : MonoBehaviour
 {
-    public float velocidad = 2f;
+    public float velocidadInicial =  2f;
+    public float aumentoVelocidad =  5f;
+    private float velocidad;
+
+    void Start()
+    {
+        velocidad = velocidadInicial;
+    }
     
     void Update()
     {
         MoveRat();
+        
+        // Aumentar la velocidad con el tiempo transcurrido
+        velocidad += aumentoVelocidad * Time.deltaTime;
     }
 
     private void MoveRat()
