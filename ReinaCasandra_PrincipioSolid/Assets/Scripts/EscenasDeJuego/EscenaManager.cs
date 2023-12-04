@@ -1,7 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class EscenaManager
+// Implementacion de la carga de escenas
+public class EscenaManager : ISceneManager
 {
     public void CargarEscena(string nombreEscena)
     {

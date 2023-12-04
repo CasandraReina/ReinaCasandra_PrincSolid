@@ -1,20 +1,21 @@
 using UnityEngine;
 
+// Clase que utiliza un objeto que implementa la interfaz MovementController para controlar el movimiento.
 public class MovimientoGenerador : MonoBehaviour
 {
-    private float speedX = 4f;
+    private MovementController movementController;
+
+    void Start()
+    {
+        // Se instancia un HorizontalMovementController con una velocidad inicial de 4f.
+       movementController = new HorizontalMovementController(4f);
+       // movementController = new HorizontalAccelerationController(3f, 1f);
+    }
 
     void Update()
     {
-        MoveGenerator();
-    }
-
-     private void MoveGenerator()
-    {
-        if(transform.position.x < -12.65f || transform.position.x > 10.5f )
-        {
-             speedX *= -1;
-        }
-        transform.Translate(speedX*Time.deltaTime,0,0);
+        // Se llama al metodo Move del objeto movementController.
+         movementController.Move(transform); 
+      
     }
 }

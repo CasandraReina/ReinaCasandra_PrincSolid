@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-   public float movementSpeed = 5f; // Velocidad de movimiento del personaje
+   public float movementSpeed = 10f; // Velocidad de movimiento del personaje
 
    public void MoveCharacter(float moveX)
     {

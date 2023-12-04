@@ -8,6 +8,9 @@ TagManager:
   - Jaula
   - Pared
   - Puerta
+  - Generador1
+  - Generador2
+  - BigRata
   layers:
   - Default
   - TransparentFX
